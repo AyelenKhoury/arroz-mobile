@@ -15,6 +15,16 @@
     background-color: #16171b !important;
 }    
 
+div .card::before {
+    content: "";
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    right: 7px;
+    top: 6px;
+    background-image: url(/img/corazon.png);
+}
+
 .border-card {
     border-color:rgba(255, 255, 255, 0.149) !important;
 }
